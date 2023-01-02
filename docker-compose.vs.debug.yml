@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  environmentcredentialexample:
+    env_file:
+      - ./EnvironmentCredentialExample/Creds.env
