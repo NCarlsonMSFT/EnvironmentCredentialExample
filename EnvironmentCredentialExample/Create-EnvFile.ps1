@@ -1,5 +1,9 @@
 # Parse the config file
 $configPath = "$PSScriptRoot\..\Configuration.json"
+if (-Not $(Test-Path $configPath))
+{
+    throw "You need to create $configPath."
+}
 $configContent = Get-Content $configPath | Join-String
 $config  = ConvertFrom-Json $configContent
 
