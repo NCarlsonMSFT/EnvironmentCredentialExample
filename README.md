@@ -5,7 +5,7 @@ An example for using an [`EnvironmentCredential`](https://learn.microsoft.com/en
 - [Power Shell 7.3](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.3)
 - [The Az PowerShell module](https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.2.0)
 - A Password-based Service Principal [PowerShell steps](https://learn.microsoft.com/en-us/powershell/azure/create-azure-service-principal-azureps?view=azps-9.2.0)
-- A Key Vault with the secret `TenantId`, `ClientId`, and `ClientSecret` for the Service principal
+- A Key Vault with the secret `ClientSecret` for the Service Principal's client secret.
 - A Blob container where the Service Principal has been assigned the "Storage Blob Data Reader" role.
 
 ## Getting started
